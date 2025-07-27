@@ -1,0 +1,77 @@
+#container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color : #333;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border-radius: 10px ;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+button:active {
+    background-color: #3e8e41; /* Even darker green on click */
+}
+input{
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 150px; /* Fixed width for consistency */
+    box-sizing: border-box; /* Ensures padding is included in width */
+    text-align: center;
+}
+/* ...existing code... */
+#diceResult {
+    font-size: 3rem;
+    color: #ff5722; /* A vibrant color for the result */
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#diceResult img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+#diceResult img,
+#dice_images img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: inline-block;
+    margin: 10px;
+}
+#diceResult,
+#dice_images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#diceResult img,
+#dice_images img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+
+/* ...existing code... */
